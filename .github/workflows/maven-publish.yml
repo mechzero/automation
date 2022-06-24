@@ -8,7 +8,7 @@ on:
     inputs:
 
       environment_to_deploy_to:
-        description: "Which environment would you like to start? Choices are: fb1 fb2 fb3 fb4 fb5 fb6 fbx integration oldstaging and finally, poop"
+        description: "Enter the environment to run the smoke test against. Choices are: fb1, fb2, fb3, fb4, fb5, fb6, fbx, app1, app3, staging"
         required: true
 
 jobs:
