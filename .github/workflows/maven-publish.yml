@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
 
-      environment_to_deploy_to_poop:
+      environment_to_deploy_to:
         description: "Which environment would you like to start? Choices are: fb1 fb2 fb3 fb4 fb5 fb6 fbx integration oldstaging and finally, poop"
         required: true
 
